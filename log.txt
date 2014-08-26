@@ -2,3 +2,25 @@
 [pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - App launched
 [pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - I am in already enrolled
 [pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - App launched
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - I am in already enrolled
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - App launched
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - I am in already enrolled
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - App launched
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - I am in already enrolled
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - App launched
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - I am in already enrolled
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - App launched
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - Enroll in Mobile Service is enabled
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - Accepted Terms and Conditions
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - Clicked on Next
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - mon gspis entered for Name
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - 2220650908is entered for MSISDN
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - testxyz80895@group.comis entered for Email
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - 14789is entered for Passcode
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - 14789is entered for Confirm Passcode
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - Clicked on NEXT
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - Click on OK
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - I am in already enrolled
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - App launched
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - I am in already enrolled
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - App launched

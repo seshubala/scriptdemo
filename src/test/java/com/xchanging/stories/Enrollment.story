@@ -11,7 +11,7 @@ I want to supply the name, mobile number, email, passcode and confirm passcode
 
 
 
-Scenario: No 1 Successful enrolment without adding a card
+Scenario: No 1 Successfull enrolment without adding a card
 
 Given I have launched the application
 And I have accepted the terms and conditions and sms agreement
