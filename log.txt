@@ -24,3 +24,12 @@
 [pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - App launched
 [pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - I am in already enrolled
 [pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - App launched
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - Enroll in Mobile Service is enabled
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - Enroll in Mobile Service is enabled
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - Accepted Terms and Conditions
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - Clicked on Next
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - mon gspis entered for Name
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - I am in already enrolled
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - App launched
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - I am in already enrolled
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - App launched
