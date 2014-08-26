@@ -15,34 +15,27 @@
 </div>
 <div class="scenario">
 <h2>Scenario: Successful enrolment without adding a card</h2>
-<div class="step failed">Given I have launched the application <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Could not find a connected Android device.) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 29.83 seconds
-Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
-System info: host: 'KIWS-SG1498', ip: '172.27.34.175', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
-Driver info: io.appium.java_client.AppiumDriver</span></div>
-<div class="step notPerformed">And I have accepted the terms and conditions and sms agreement <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
-<div class="step notPerformed">And I have entered &lt;customer name&gt;, &lt;mobile number&gt;, &lt;email&gt;, &lt;passcode&gt;, &lt;confirm passcode&gt; <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
-<div class="step notPerformed">And I have entered my HVC code <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
-<div class="step notPerformed">And I have entered the security questions <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
-<div class="step notPerformed">And I skip entering card details <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
-<div class="step notPerformed">When I verify email and login <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
-<div class="step notPerformed">Then I successfully finish enrolment process <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
-<div class="step failed">com.xchanging.appium.EnrollmentSteps.signOff() <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.jbehave.core.failures.BeforeOrAfterFailed: Method signOff (annotated with @AfterScenario in class com.xchanging.appium.EnrollmentSteps) failed: java.lang.NullPointerException</span></div>
+<div class="step successful">Given I have launched the application</div>
+<div class="step successful">And I have accepted the terms and conditions and sms agreement</div>
+<div class="step successful">And I have entered &lt;customer name&gt;, &lt;mobile number&gt;, &lt;email&gt;, &lt;passcode&gt;, &lt;confirm passcode&gt;</div>
+<div class="step successful">And I have entered my HVC code</div>
+<div class="step successful">And I have entered the security questions</div>
+<div class="step successful">And I skip entering card details</div>
+<div class="step successful">When I verify email and login</div>
+<div class="step successful">Then I successfully finish enrolment process</div>
 </div>
 <div class="scenario">
 <h2>Scenario: Login</h2>
 <div class="step successful">Given I have already enroled</div>
-<div class="step failed">And I have relaunched the application <span class="keyword failed">(FAILED)</span><br/><span class="message failed">java.lang.NullPointerException</span></div>
-<div class="step notPerformed">When I enter the passcode <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
-<div class="step notPerformed">Then I login to the app successfully <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
-<div class="step failed">com.xchanging.appium.EnrollmentSteps.signOff() <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.jbehave.core.failures.BeforeOrAfterFailed: Method signOff (annotated with @AfterScenario in class com.xchanging.appium.EnrollmentSteps) failed: java.lang.NullPointerException</span></div>
+<div class="step successful">And I have relaunched the application</div>
+<div class="step successful">When I enter the passcode</div>
+<div class="step successful">Then I login to the app successfully</div>
 </div>
 <div class="scenario">
 <h2>Scenario: Add Card</h2>
 <div class="step successful">Given I have already enroled</div>
-<div class="step failed">And I have launched and login to the application <span class="keyword failed">(FAILED)</span><br/><span class="message failed">java.lang.NullPointerException</span></div>
-<div class="step notPerformed">When I enter the card details <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
-<div class="step notPerformed">Then I should be able to add card successfully <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
-<div class="step failed">com.xchanging.appium.EnrollmentSteps.signOff() <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.jbehave.core.failures.BeforeOrAfterFailed: Method signOff (annotated with @AfterScenario in class com.xchanging.appium.EnrollmentSteps) failed: java.lang.NullPointerException</span></div>
+<div class="step successful">And I have launched and login to the application</div>
+<div class="step successful">When I enter the card details</div>
+<div class="step successful">Then I should be able to add card successfully</div>
 </div>
 </div>
