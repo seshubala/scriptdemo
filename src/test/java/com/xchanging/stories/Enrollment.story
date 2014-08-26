@@ -5,13 +5,13 @@ Meta:
 @suite sanity
 
 Narrative:
-In order to enrol a customer to enter data on the accont information screen
+In order to enroll a customer
 As a FI
-I want to supply the name, mobile number, email, passcode and confirm passcode
+I want to be able to enter customer details
 
 
 
-Scenario: No 1 Successfull enrolment without adding a card
+Scenario: Successful enrolment without adding a card
 
 Given I have launched the application
 And I have accepted the terms and conditions and sms agreement
@@ -22,7 +22,7 @@ And I skip entering card details
 When I verify email and login
 Then I successfully finish enrolment process
 
-Scenario: No 2 Login
+Scenario: Login
 
 
 Given I have already enroled
@@ -30,7 +30,7 @@ And I have relaunched the application
 When I enter the passcode
 Then I login to the app successfully
 
-Scenario: No 3 Add Card
+Scenario: Add Card
 
 Given I have already enroled
 And I have launched and login to the application

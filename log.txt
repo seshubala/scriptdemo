@@ -33,3 +33,11 @@
 [pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - App launched
 [pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - I am in already enrolled
 [pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - App launched
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - I am in already enrolled
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - App launched
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - I am in already enrolled
+[pool-1-thread-1] INFO  com.xchanging.appium.Enrollment_Flow  - App launched
+[pool-1-thread-1] INFO  com.xchanging.appium.EnrollmentSteps  - I am in already enrolled
+[pool-1-thread-1] INFO  com.xchanging.appium.EnrollmentSteps  - App launched
+[pool-1-thread-1] INFO  com.xchanging.appium.EnrollmentSteps  - I am in already enrolled
+[pool-1-thread-1] INFO  com.xchanging.appium.EnrollmentSteps  - App launched

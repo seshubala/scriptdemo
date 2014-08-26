@@ -7,11 +7,15 @@ import org.jbehave.core.configuration.Configuration;
 import org.jbehave.core.configuration.MostUsefulConfiguration;
 import org.jbehave.core.io.LoadFromClasspath;
 import org.jbehave.core.junit.JUnitStories;
+import org.jbehave.core.reporters.Format;
 import org.jbehave.core.reporters.StoryReporterBuilder;
 import org.jbehave.core.steps.CandidateSteps;
 import org.jbehave.core.steps.InstanceStepsFactory;
 
+
 public class JBehaveStories extends JUnitStories {
+	
+	
 	
 	 public JBehaveStories() {
 		 
@@ -25,32 +29,28 @@ public class JBehaveStories extends JUnitStories {
     // Here we specify the configuration, starting from default MostUsefulConfiguration, and changing only what is needed
     @Override
     public Configuration configuration() {
+    	
         return new MostUsefulConfiguration()
                 // where to find the stories
                 .useStoryLoader(new LoadFromClasspath(this.getClass()))
                 .useStoryReporterBuilder(  
-                        new StoryReporterBuilder()  
-                            .withDefaultFormats());
+                        new StoryReporterBuilder()
+                        	
+                           .withFormats(Format.STATS,Format.HTML));
                 
-              //  .useStoryReporterBuilder(new StoryReporterBuilder().withFormats(CustomHtmlOutput.FORMAT));
-                
-          
-                      
+              
     }
 
     // Here we specify the steps classes
     @Override
     public List<CandidateSteps> candidateSteps() {
         // var args, can have more that one steps classes
-        return new InstanceStepsFactory(configuration(), new Enrollment_Flow()).createCandidateSteps();
+        return new InstanceStepsFactory(configuration(), new EnrollmentSteps()).createCandidateSteps();
     }
 
 	@Override
 	protected List<String> storyPaths() {
-		return Arrays.asList("com\\xchanging\\stories\\Enrollment.story");
-		
-//		StoryFinder finder = new StoryFinder();  
-//        return finder.findPaths(codeLocationFromClass(this.getClass()).getFile(), Arrays.asList("**/*.story"), Arrays.asList(""));
+		return Arrays.asList("com//xchanging//stories//Enrollment.story");
 		
 	}
 
