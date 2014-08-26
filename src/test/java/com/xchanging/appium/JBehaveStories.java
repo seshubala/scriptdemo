@@ -6,10 +6,12 @@ import java.util.List;
 import org.jbehave.core.configuration.Configuration;
 import org.jbehave.core.configuration.MostUsefulConfiguration;
 import org.jbehave.core.io.LoadFromClasspath;
+import org.jbehave.core.io.StoryFinder;
 import org.jbehave.core.junit.JUnitStories;
 import org.jbehave.core.reporters.StoryReporterBuilder;
 import org.jbehave.core.steps.CandidateSteps;
 import org.jbehave.core.steps.InstanceStepsFactory;
+import static org.jbehave.core.io.CodeLocations.*;
 
 public class JBehaveStories extends JUnitStories {
 	
@@ -47,7 +49,10 @@ public class JBehaveStories extends JUnitStories {
 
 	@Override
 	protected List<String> storyPaths() {
-		return Arrays.asList("com\\xchanging\\stories\\Enrollment.story");
+		//return Arrays.asList("com\\xchanging\\stories\\Enrollment.story");
+		
+		StoryFinder finder = new StoryFinder();  
+        return finder.findPaths(codeLocationFromClass(this.getClass()).getFile(), Arrays.asList("**/*.story"), Arrays.asList(""));
 		
 	}
 
