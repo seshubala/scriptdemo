@@ -49,10 +49,10 @@ public class JBehaveStories extends JUnitStories {
 
 	@Override
 	protected List<String> storyPaths() {
-		//return Arrays.asList("com\\xchanging\\stories\\Enrollment.story");
+		return Arrays.asList("com\\xchanging\\stories\\Enrollment.story");
 		
-		StoryFinder finder = new StoryFinder();  
-        return finder.findPaths(codeLocationFromClass(this.getClass()).getFile(), Arrays.asList("**/*.story"), Arrays.asList(""));
+//		StoryFinder finder = new StoryFinder();  
+//        return finder.findPaths(codeLocationFromClass(this.getClass()).getFile(), Arrays.asList("**/*.story"), Arrays.asList(""));
 		
 	}
 
