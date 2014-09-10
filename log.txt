@@ -152,3 +152,4 @@
 [pool-1-thread-1] INFO  com.xchanging.appium.EnrollmentSteps  - App launched
 [pool-1-thread-1] INFO  com.xchanging.appium.EnrollmentSteps  - Card has been added
 [pool-1-thread-1] INFO  com.xchanging.appium.EnrollmentSteps  - Enroll in Mobile Service is enabled
+[pool-1-thread-1] INFO  com.xchanging.appium.EnrollmentSteps  - Enroll in Mobile Service is enabled
