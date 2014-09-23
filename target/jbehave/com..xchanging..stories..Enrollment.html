@@ -1,0 +1,41 @@
+<div class="story">
+<h1></h1>
+<div class="path">com//xchanging//stories//Enrollment.story</div>
+<div class="meta">
+<div class="keyword">Meta:</div>
+<div class="property">@capability customer-management</div>
+<div class="property">@rfc 1111</div>
+<div class="property">@scope (rfc 1111 or rel 3 or rel 4)</div>
+<div class="property">@suite sanity</div>
+</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">In order to</span> enroll a customer</div>
+<div class="element asA"><span class="keyword asA">As a</span> FI</div>
+<div class="element iWantTo"><span class="keyword iWantTo">I want to</span> be able to enter customer details</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Successful enrolment without adding a card</h2>
+<div class="step successful">Given I have launched the application</div>
+<div class="step successful">And I have accepted the terms and conditions and sms agreement</div>
+<div class="step successful">And I have entered &lt;customer name&gt;, &lt;mobile number&gt;, &lt;email&gt;, &lt;passcode&gt;, &lt;confirm passcode&gt;</div>
+<div class="step successful">And I have entered my HVC code</div>
+<div class="step successful">And I have entered the security questions</div>
+<div class="step successful">And I skip entering card details</div>
+<div class="step successful">When I verify email and login</div>
+<div class="step successful">Then I successfully finish enrolment process</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Login</h2>
+<div class="step successful">Given I have already enroled</div>
+<div class="step successful">And I have relaunched the application</div>
+<div class="step successful">When I enter the passcode</div>
+<div class="step successful">Then I login to the app successfully</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Add Card</h2>
+<div class="step successful">Given I have already enroled</div>
+<div class="step successful">And I have launched and login to the application</div>
+<div class="step successful">When I enter the card details</div>
+<div class="step successful">Then I should be able to add card successfully</div>
+</div>
+</div>
